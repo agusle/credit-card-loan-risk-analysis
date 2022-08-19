@@ -1,0 +1,2 @@
+# credit-risk-analysis-using-deep-learning
+Determine whether a new loan applicant will be able to repay its debt or not. Very small dataset of 50,000 applicants. Trained many machine learning models achieving +0.65 ROC AUC and compared results against a deep learning model like Multilayer perceptron. Deployed in AWS instances using Docker and also using API-based web-service application with Flask.
