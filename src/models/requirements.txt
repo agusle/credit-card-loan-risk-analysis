@@ -1,0 +1,12 @@
+# Python standard libraries
+protobuf~=3.19.0
+
+# Third party libraries
+redis==4.1.4
+pandas==1.4.1
+xlrd==2.0.1
+
+# ML libraries
+scikit-learn==1.1.1
+lightgbm==3.3.2
+

@@ -1,0 +1,33 @@
+version: "3.2"
+services:
+  api:
+    image: flask_api
+    container_name: flask_api
+    build:
+      context: ../src/api
+      target: build
+    ports:
+      - "80:5000"
+    environment:
+      - FLASK_APP=app
+      - FLASK_DEBUG=1
+      - FLASK_ENV=development
+    depends_on:
+      - redis
+      - model
+    volumes:
+      - ../src/api/uploads:/src/uploads
+
+  redis:
+    container_name: redis
+    image: redis:6.2.6
+
+  model:
+    container_name: ml_service
+    image: ml_service
+    build:
+      context: ../src/models
+      target: build
+    depends_on:
+      - redis
+
