@@ -37,7 +37,7 @@ In this evaluation report I'm comparing the results of several experiments carri
 
 During this iterative process using AWS Elastic Computing (EC2) cloud server I evaluate the trade-off between the resources and time consumption with the accuracy we desire, to choose the best approach between the mentioned techniques.
 
-You will find the script for model training in [train.py](https://github.com/agusle/final-project/blob/main/src/models/train.py) with the corrpesponding documentation.
+You will find the script for model training in [train.py](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/src/models/train.py) with the corrpesponding documentation.
 
 
 ## Hardware specifications of server used for training:
@@ -50,7 +50,7 @@ Memory: 11.441 MiB
 
 ## Models training performance and metrics
 <p align="center">
-    <img src="https://github.com/agusle/final-project/blob/main/img/models.png">
+    <img src="https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/img/models.png">
 </p>
 
 ### Baseline
@@ -64,7 +64,7 @@ Beginning the analysis with a simple baseline by trying to get a basic summary o
 | Inference time Unit | 0.927343 secs | **0.004546 secs** |      0.019042 secs |     0.549788 secs |
 |                Size |      190.11MB |            0.72MB |             0.79MB |         **0.2MB** |
 
-- Notebook reference: [2.0-avl-Baseline_Model_evaluation_1.ipynb](https://github.com/agusle/final-project/blob/main/notebooks/2.0-avl-Baseline_Model_evaluation_1.ipynb)
+- Notebook reference: [2.0-avl-Baseline_Model_evaluation_1.ipynb](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/notebooks/2.0-avl-Baseline_Model_evaluation_1.ipynb)
 
 ### Hyperparameters Tuning
 After baseline stage I went deeper to hyperparameters tuning to improve metrics and also try to compare best machine learning models vs a deep learning Multilayer perceptron. In this case, best overall model seemed to be LightGBM.
@@ -78,7 +78,7 @@ After baseline stage I went deeper to hyperparameters tuning to improve metrics 
 |     Inference Time |                 0.048623 secs |       **0.006243 secs** |                0.007087 secs |      0.013457 secs |                 0.009351 secs |
 |               Size |                       45.34MB |              0.45MB |                       0.79MB |              **0.2MB** |                        1.56MB |
 
-- Notebook reference: [2.1-avl-Tuned_Model_evaluation_2.ipynb](https://github.com/agusle/final-project/blob/main/notebooks/2.1-avl-Tuned_Model_evaluation_2.ipynb)
+- Notebook reference: [2.1-avl-Tuned_Model_evaluation_2.ipynb](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/notebooks/2.1-avl-Tuned_Model_evaluation_2.ipynb)
 
 ### New ensemble methods and final analysis
 Finally, I spent time creating ensemble techniques that combines all created models to see if metrics improvement but it did not change results significantly.
@@ -92,7 +92,7 @@ Finally, I spent time creating ensemble techniques that combines all created mod
 | Inference Time |                 0.048623 secs |       0.006243 secs |                0.007087 secs |      0.013457 secs |                **0.003036 secs** |        0.331205 secs |      0.399165 secs |
 |           Size |                       45.34MB |              0.44MB |                       **0.19MB** |             0.91MB |                        1.56MB |              47.11MB |            47.11MB |
 
-- Notebook reference: [2.2-avl-Final_Model_evaluation.ipynb](https://github.com/agusle/final-project/blob/main/notebooks/2.2-avl-Final_Model_evaluation.ipynb)
+- Notebook reference: [2.2-avl-Final_Model_evaluation.ipynb](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/notebooks/2.2-avl-Final_Model_evaluation.ipynb)
 
 ## Conclusion
 After all the training, hyperparameter tuning and trying new ensemble learning methods I analyzed what model I wanted to predict the results for each new applicant based on the following 2 metrics:

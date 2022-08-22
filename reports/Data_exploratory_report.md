@@ -12,7 +12,7 @@ The dataset was created for a famous competition called [PAKDD 2010 (Pacific-Asi
  
 There were 3 datasets used for the Challenge. They were collected during period from 2006 to 
 2009,  and  came  from  a  private  label  credit  card  operation  of  a  Brazilian  credit  company 
-and its partner shops.  Those mentioned dataset were downloaded from a s3 bucket hosted in [Amazon Simple Storage Service](https://aws.amazon.com/s3/) through [dataset_download.py](https://github.com/agusle/final-project/blob/main/src/dataset/dataset_download.py).
+and its partner shops.  Those mentioned dataset were downloaded from a s3 bucket hosted in [Amazon Simple Storage Service](https://aws.amazon.com/s3/) through [dataset_download.py](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/src/dataset/dataset_download.py).
  
 The  prediction  targets  to  detect  are  the  “bad”  clients.  A  client  is  labeled  as  “bad”  (target 
 variable=1) if he/she made 60 days delay in any payment of the bills contracted along the first 
@@ -37,7 +37,7 @@ In the following table I will compare the 3 different downloaded files to analyz
 | Labels  0 - GOOD         |                 36959  - 73.92 %                |         PAKDD2010_Leaderboard_Submission_Example.txt         |                            0                           |
 | Labels 1 - BAD           |                 13041  - 26.08 %                |         PAKDD2010_Leaderboard_Submission_Example.txt         |                            0                           |
 | Utility         |                      Train/Validation/Test                      |                     **Desestimated**                     |                          **Desestimated**                          |
-| Data exploratory details | [1.0 - avl - Initial_data_exploration - Modeling](https://github.com/agusle/final-project/blob/main/notebooks/1.0-avl-Initial_data_exploration-Modeling.ipynb) | [1.1 - avl - Initial_data_exploration - Leaderboard](https://github.com/agusle/final-project/blob/main/notebooks/1.1-avl-Initial_data_exploration-Leaderboard.ipynb) | [1.2 - avl - Initial_data_exploration - Prediction-data](https://github.com/agusle/final-project/blob/main/notebooks/1.2-avl-Initial_data_exploration-Prediction-data.ipynb) |
+| Data exploratory details | [1.0 - avl - Initial_data_exploration - Modeling](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/notebooks/1.0-avl-Initial_data_exploration-Modeling.ipynb) | [1.1 - avl - Initial_data_exploration - Leaderboard](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/notebooks/1.1-avl-Initial_data_exploration-Leaderboard.ipynb) | [1.2 - avl - Initial_data_exploration - Prediction-data](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/notebooks/1.2-avl-Initial_data_exploration-Prediction-data.ipynb) |
 
 ## Dataset conclusions 
 
@@ -52,7 +52,7 @@ In the following table I will compare the 3 different downloaded files to analyz
 
 ## Feature engineering
 
-Once I focused on the file I wanted to work on to train the model I came to the following conclusion by doing feature engineering on the aforementioned [notebook](https://github.com/agusle/final-project/blob/main/notebooks/1.0-avl-Initial_data_exploration-Modeling.ipynb). Through that analysis I was able to conclude that:
+Once I focused on the file I wanted to work on to train the model I came to the following conclusion by doing feature engineering on the aforementioned [notebook](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/notebooks/1.0-avl-Initial_data_exploration-Modeling.ipynb). Through that analysis I was able to conclude that:
 
 - **FIRST THINGS FIRST**: From the total of 54 feature I realized that on of them was the target label and the other the applicant ID. Thus, the latter was used as an index and the former was analyzed and then separated by splitting the dataset.
 - **FROM 52 to 32 FEATURES:** There were 4 features where more than 50% of null values were found. Also, there were 2 features where more than 60% of empty values were found and finally, other 14 features had constant values (above 99,3% of same value). All those features were discarded for model training.
@@ -72,7 +72,7 @@ Once I focused on the file I wanted to work on to train the model I came to the 
 Due to the distribution of the target label, the dataset was **split in a stratified manner** to mantain proportions of the target labels in the returned datasets.
 
 ## Preprocessing
-All the feature enginneering and split stages of data analyisis were carried out by [preprocessing.py](https://github.com/agusle/final-project/blob/main/src/features/preprocessing.py) to prepare data for model training with scaling, encoding
+All the feature enginneering and split stages of data analyisis were carried out by [preprocessing.py](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/src/features/preprocessing.py) to prepare data for model training with scaling, encoding
 
 
 ## Personal productivity

@@ -1,16 +1,16 @@
 <p align="center" width="100%">
-    <img src="https://github.com/agusle/final-project/blob/main/img/project-logo.PNG">
+    <img src="https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/img/project-logo.PNG">
 </p>
 
 <p align="center">
-    <a href="https://github.com/agusle/final-project/commits/main">
-    <img src="https://img.shields.io/github/last-commit/agusle/final-project?logo=Github"
+    <a href="https://github.com/agusle/credit-risk-analysis-using-deep-learning/commits/main">
+    <img src="https://img.shields.io/github/last-commit/agusle/credit-risk-analysis-using-deep-learning?logo=Github"
          alt="GitHub last commit">
-    <a href="https://github.com/agusle/final-project/issues">
-    <img src="https://img.shields.io/github/issues-raw/agusle/final-project?logo=Github"
+    <a href="https://github.com/agusle/credit-risk-analysis-using-deep-learning/issues">
+    <img src="https://img.shields.io/github/issues-raw/agusle/credit-risk-analysis-using-deep-learning?logo=Github"
          alt="GitHub issues">
-    <a href="https://github.com/agusle/final-project/pulls">
-    <img src="https://img.shields.io/github/issues-pr-raw/agusle/final-project?logo=Github"
+    <a href="https://github.com/agusle/credit-risk-analysis-using-deep-learning/pulls">
+    <img src="https://img.shields.io/github/issues-pr-raw/agusle/credit-risk-analysis-using-deep-learning?logo=Github"
          alt="GitHub pull requests">
 </p>
 
@@ -36,8 +36,8 @@ In this particularly case I classified **if a credit applicant is creditworthy**
 Determine whether a new loan applicant will be able to repay its debt or not. Very small dataset of 50,000 applicants. Trained many machine learning models achieving +0.64 ROC AUC and compared results against a deep learning model like Multilayer perceptron. Deployed in AWS instances using Docker and also using
 API-based web-service application with Flask.
 You can see detailed information in the following **reports**:
- - [Exploratory Data Analysis](https://github.com/agusle/final-project/blob/main/reports/Data_exploratory_report.md)
- - [Modeling](https://github.com/agusle/final-project/blob/main/reports/Modeling_report.md)
+ - [Exploratory Data Analysis](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/reports/Data_exploratory_report.md)
+ - [Modeling](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/reports/Modeling_report.md)
 
 ------------------
 
@@ -87,4 +87,4 @@ http://localhost/
 ------------------
 
 ## 👍 Contribute
-Check out [`CONTRIBUTING.md`](https://github.com/agusle/final-project/blob/main/CONTRIBUTING.md)
+Check out [`CONTRIBUTING.md`](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/CONTRIBUTING.md)
