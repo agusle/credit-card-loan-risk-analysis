@@ -47,7 +47,7 @@ You can see detailed information in the following **reports**:
 ------------------
 
 ## 👷🏿 Architecture
-API service that is backed by a scikit learn model. Basically, through a form used as an interface between our service and the user, who will enter data that will be processed as an array with 52 features, we will receive two possible answers, each with 2 results that will be the following: a label of 0 or 1 and a probability from 0 to 100 that the label is 1. 
+API service that is backed by a scikit learn model. Basically, through a form used as an interface between our service and the user, who will enter data that will be processed as an array with 52 features, we will receive two possible answers, each with 2 results that will be the following: a label of 0 or 1 and a probability from 0 to 100 that the label is 1. The type of label comes from the probability. In this case, if the probability to be 1 is equal or above 0.5 it will be a 1, otherwise it will be a 0. This threshold is editable to adjust the solution to different business requirements.
 
 ![project-archiquetcture](img/project_architecture.drawio.png)
 
