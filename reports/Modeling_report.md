@@ -114,7 +114,7 @@ Besides [Ensemble Stacked](https://scikit-learn.org/stable/modules/ensemble.html
 - Sometimes less is more and complex models could not be always the best solution. During the experimentation **Boosting models were the best performing ones.**
 
 ## Personal productivity
-- **High level tasks**: 4 
+- **High level tasks**: 3 
     - Modeling (Define models to use and build a script for training)
     - Set up AWS server.
     - Model results comparison.
