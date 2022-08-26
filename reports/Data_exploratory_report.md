@@ -12,7 +12,7 @@ The dataset was created for a famous competition called [PAKDD 2010 (Pacific-Asi
  
 There were 3 datasets used for the Challenge. They were collected during period from 2006 to 
 2009,  and  came  from  a  private  label  credit  card  operation  of  a  Brazilian  credit  company 
-and its partner shops.  Those mentioned dataset were downloaded from a s3 bucket hosted in [Amazon Simple Storage Service](https://aws.amazon.com/s3/) through [dataset_download.py](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/src/dataset/dataset_download.py).
+and its partner shops.  Those mentioned dataset were downloaded from a s3 bucket hosted in [Amazon Simple Storage Service](https://aws.amazon.com/s3/) through [dataset_download.py](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/src/dataset/dataset_download.py) script.
  
 The  prediction  targets  to  detect  are  the  “bad”  clients.  A  client  is  labeled  as  “bad”  (target 
 variable=1) if he/she made 60 days delay in any payment of the bills contracted along the first 
