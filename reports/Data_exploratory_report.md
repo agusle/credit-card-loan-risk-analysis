@@ -48,7 +48,7 @@ In the following table I will compare the 3 different downloaded files to analyz
 
 2 - The last file **PAKDD2010_Prediction_Data.txt** had no labels at all so it made it impossible to build a supervised machine or deep learning model.
 
-3 - I had the challenge of working with a very small dataset. From a total of 90.000 aplicants, only the 55,55% of it was useful.
+3 - I had the challenge of working with a very small dataset. From a total of 90.000 aplicants, only 50.000 was useful (55,55%).
 
 ## Feature engineering
 
@@ -72,7 +72,7 @@ Once I focused on the file I wanted to work on to train the model I came to the 
 Due to the distribution of the target label, the dataset was **split in a stratified manner** to mantain proportions of the target labels in the returned datasets.
 
 ## Preprocessing
-All the feature enginneering and split stages of data analyisis were carried out by [preprocessing.py](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/src/features/preprocessing.py) to prepare data for model training with scaling, encoding
+All the feature enginneering and split stages of data analyisis were carried out by [preprocessing.py](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/src/features/preprocessing.py) script to prepare data for model training with scaling and encoding.
 
 
 ## Personal productivity
