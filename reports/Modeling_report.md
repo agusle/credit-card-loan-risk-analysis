@@ -113,6 +113,14 @@ Besides [Ensemble Stacked](https://scikit-learn.org/stable/modules/ensemble.html
 - With a short amount of time I reached the **top position of PAKDD 2010 competition and top 20 in Kaggle.**
 - Sometimes less is more and complex models could not be always the best solution. During the experimentation **Boosting models were the best performing ones.**
 
+## Personal productivity
+- **High level tasks**: 4 
+    - Modeling (Define models to use and build a script for training)
+    - Set up AWS server.
+    - Model results comparison.
+- **Total time**: 33hs about one week of work.
+- **Percentage of total project workload**: 25%.
+
 ## What can be improved
 - Build a Multilayer Perceptron with Tensorflow and deepen into its hyperparameter configuration.
 - Improve train script to bring the user the possibility to load all configuration from an unique .yaml file.
