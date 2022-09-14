@@ -26,19 +26,19 @@
 ------------------
 
 ## 📖 About
-**Problem**: Binary classification with the aim of predicting risky credit operations.
+- **Problem**: Binary classification with the aim of predicting risky credit operations.
 
 In this particularly case I classified **if a credit applicant is creditworthy** analyizing its personal and  financial data to predict if is going to repay a loan on time. It is considered that an applicant have defaulted on its debt if it does not pay within 60 days of the due date so in this case will label with 0 those that are solvent and with 1 those that are not.
 
-**Industries**: fintech, banks, logistics, delivery apps, insurtech, many others related. 
+- **Industries**: fintech, banks, logistics, delivery apps, insurtech, many others related. 
 
-**Solution**:
+- **Solution**:
 Determine whether a new loan applicant will be able to repay their debt or not. Manipulated and visualized data, performed data pre-processing for a very small dataset of 50,000 applicants. Trained many supervised models like Random Forest, Boosting ensemble learning with LightGBM, XGBoost and CatBoost, and Stacked ensemble
 learning with Soft Voting and Stacked models achieving +0.64 ROC AUC. Compared that result against a Deep Learning neural network like a Multilayer perceptron. Deployed in AWS instances using Docker and also using API-based web-service application with Flask.
 
 You can see detailed information in the following **reports**:
- - [Exploratory Data Analysis](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/reports/Data_exploratory_report.md)
- - [Modeling](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/reports/Modeling_report.md)
+    - [Exploratory Data Analysis](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/reports/Data_exploratory_report.md)
+    - [Modeling](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/reports/Modeling_report.md)
 
 ------------------
 
