@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img src="https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/img/project-logo.PNG" width = 400 height = 400>
+    <img src="https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/img/project-logo.PNG" width = 500 height = 300>
 </p>
 
 <p align="center">
