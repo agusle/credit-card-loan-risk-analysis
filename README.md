@@ -37,8 +37,8 @@ Determine whether a new loan applicant will be able to repay their debt or not. 
 learning with Soft Voting and Stacked models achieving +0.64 ROC AUC. Compared that result against a Deep Learning neural network like a Multilayer perceptron. Deployed in AWS instances using Docker and also using API-based web-service application with Flask.
 
 You can see detailed information in the following **reports**: 
-        - [Exploratory Data Analysis](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/reports/Data_exploratory_report.md) 
-        - [Modeling](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/reports/Modeling_report.md)
+- [Exploratory Data Analysis](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/reports/Data_exploratory_report.md) 
+- [Modeling](https://github.com/agusle/credit-risk-analysis-using-deep-learning/blob/main/reports/Modeling_report.md)
 
 ------------------
 
